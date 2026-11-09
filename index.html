@@ -3,84 +3,57 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Elliot MG is a curious builder making useful things with intention.">
-    <meta name="theme-color" content="#f3efe7">
-    <meta property="og:title" content="Elliot MG - Personal website">
-    <meta property="og:description" content="A personal home for Elliot MG's work, experiments, and ideas.">
-    <meta property="og:type" content="website">
-    <title>Elliot MG - Personal website</title>
+    <meta name="description" content="Elliot MG - personal academic website.">
+    <title>About - Elliot MG</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Elliot MG home">Elliot<span>MG</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Toggle navigation</span><span></span><span></span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a>
-      </nav>
-      <p class="availability"><i></i> Available for good work</p>
+      <div class="site-header-inner">
+        <a class="wordmark" href="index.html">Elliot MG</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a class="active" href="index.html">About</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="cv.html">CV</a>
+          <a href="teaching.html">Teaching</a>
+        </nav>
+      </div>
     </header>
-
-    <main id="main-content">
-      <section id="top" class="hero page-width" aria-labelledby="hero-title">
-        <div class="hero-kicker">Independent builder<br>based in the UK</div>
-        <div class="hero-content">
-          <p class="eyebrow">Hello, I'm Elliot</p>
-          <h1 id="hero-title">Ideas are only<br><em>the beginning.</em></h1>
-          <p class="hero-summary">I make digital things that are useful, thoughtful, and a little bit unexpected. This is where I keep a record of what I am learning and building.</p>
-          <a class="circle-link" href="#work" aria-label="Explore selected work"><span>Explore<br>the work</span><b aria-hidden="true">↘</b></a>
+    <main id="main-content" class="page">
+      <div class="page-intro">
+        <p class="eyebrow">About me</p>
+        <h1>Hi, I'm Elliot.</h1>
+        <p class="intro">I am a researcher and educator interested in understanding complex systems and communicating ideas clearly.</p>
+      </div>
+      <div class="content-grid">
+        <div>
+          <h2>Welcome</h2>
+          <p>This website is a simple home for my research, publications, teaching, and curriculum vitae. I am currently updating these pages with more detail about my work and interests.</p>
+          <p>My work brings together careful analysis, collaborative research, and a commitment to making technical ideas accessible to different audiences.</p>
         </div>
-        <div class="hero-mark" aria-hidden="true">
-          <div class="mark-ring ring-one"></div><div class="mark-ring ring-two"></div>
-          <div class="mark-core">EM</div>
-          <span class="mark-note note-top">curious by default</span><span class="mark-note note-bottom">est. 2026</span>
-        </div>
-      </section>
-
-      <section id="about" class="section page-width ruled" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span><span>About</span></div>
-        <div class="about-layout">
-          <h2 id="about-title">A practice built<br>around <em>curiosity.</em></h2>
-          <div class="about-copy">
-            <p class="lead">I like making sense of messy problems and turning them into clear, considered experiences.</p>
-            <p>This site is a small, evolving snapshot of the things I am exploring: design, technology, systems, and the details that make digital tools feel human.</p>
-            <p class="mono-note">Currently exploring / generous interfaces / useful software / better questions</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="section page-width ruled" aria-labelledby="work-title">
-        <div class="section-label"><span>02</span><span>Selected work</span></div>
-        <div class="work-heading"><h2 id="work-title">A few things<br><em>in progress.</em></h2><p>Placeholder projects for future case studies, experiments, and collaborations.</p></div>
-        <div class="work-list">
-          <article class="work-item">
-            <div class="work-number">01</div><div class="work-visual visual-saffron"><span>Project<br>one</span><div class="visual-star">+</div></div>
-            <div class="work-info"><p class="work-type">Placeholder project / 2026</p><h3>Project title goes here</h3><p>A short description of the challenge, approach, and outcome will live here.</p><a href="#contact" class="arrow-link">Read more <span aria-hidden="true">↗</span></a></div>
-          </article>
-          <article class="work-item">
-            <div class="work-number">02</div><div class="work-visual visual-lilac"><span>Another<br>idea</span><div class="visual-square"></div></div>
-            <div class="work-info"><p class="work-type">Placeholder project / 2026</p><h3>Another good idea</h3><p>A concise introduction to the work and why it matters.</p><a href="#contact" class="arrow-link">Read more <span aria-hidden="true">↗</span></a></div>
-          </article>
-          <article class="work-item">
-            <div class="work-number">03</div><div class="work-visual visual-mint"><span>Something<br>curious</span><div class="visual-circle"></div></div>
-            <div class="work-info"><p class="work-type">Experiment / 2026</p><h3>Something curious</h3><p>A place for a side project, writing series, or open-ended experiment.</p><a href="#contact" class="arrow-link">Read more <span aria-hidden="true">↗</span></a></div>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="contact-section" aria-labelledby="contact-title">
-        <div class="page-width contact-inner">
-          <div class="section-label light"><span>03</span><span>Contact</span></div>
-          <h2 id="contact-title">Have a good<br><em>question?</em></h2>
-          <div class="contact-bottom"><p>For collaborations, ideas, or just to say hello, send me a note.</p><a class="email-link" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a></div>
-          <div class="social-links"><a href="https://github.com/ElliotMG" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
-        </div>
+        <aside class="sidebar-card">
+          <h2>At a glance</h2>
+          <dl>
+            <dt>Role</dt><dd>Researcher and educator</dd>
+            <dt>Based</dt><dd>United Kingdom</dd>
+            <dt>Interests</dt><dd>Complex systems, data, and communication</dd>
+          </dl>
+        </aside>
+      </div>
+      <section class="link-list" aria-labelledby="explore-title">
+        <h2 id="explore-title">Explore</h2>
+        <a href="research.html"><span>Research interests</span><b aria-hidden="true">→</b></a>
+        <a href="publications.html"><span>Publications</span><b aria-hidden="true">→</b></a>
+        <a href="cv.html"><span>Curriculum vitae</span><b aria-hidden="true">→</b></a>
+        <a href="teaching.html"><span>Teaching</span><b aria-hidden="true">→</b></a>
       </section>
     </main>
-    <footer class="site-footer page-width"><span>© <span id="year"></span> Elliot MG</span><span>Built on the web</span><a href="#top">Back to top ↑</a></footer>
+    <footer class="site-footer"><p>© <span id="year"></span> Elliot MG</p><p><a href="mailto:hello@example.com">hello@example.com</a></p></footer>
     <script src="script.js"></script>
   </body>
 </html>
