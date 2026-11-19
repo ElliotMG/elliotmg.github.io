@@ -16,3 +16,11 @@ if (menuButton && siteNav) {
 }
 
 document.querySelector("#year").textContent = new Date().getFullYear();
+
+const publications = document.querySelectorAll(".publication-placeholder");
+publications.forEach((publication, index) => {
+  const number = publication.querySelector(":scope > span");
+  if (number) {
+    number.textContent = String(publications.length - index).padStart(2, "0");
+  }
+});

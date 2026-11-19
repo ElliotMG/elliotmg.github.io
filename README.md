@@ -7,7 +7,6 @@ Personal website for Elliot MG, built with plain HTML, CSS, and JavaScript.
 Each main area has its own simple HTML page:
 
 - `index.html` — About
-- `research.html` — Research interests
 - `publications.html` — Publications
 - `cv.html` — Curriculum vitae
 - `teaching.html` — Teaching and supervision
